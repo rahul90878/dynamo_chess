@@ -5,7 +5,7 @@ const AccountDeleteForm = () => {
     const navigate=useNavigate();
     const userData = JSON.parse(localStorage.getItem('User Detail'))
     // console.log(userData,userData.email,userData.name);
-    
+       
   const [formData, setFormData] = useState({
     email: userData?.email || "",
     name: userData?.name || "",
